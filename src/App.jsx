@@ -1,10 +1,18 @@
-
 import './App.css';
+import { Route, Routes } from "react-router-dom"
+import NavBar from './components/NavBar/NavBar'
+import StartshipList from './pages/Starship List/Starship List';
 
 function App() {
   return (
     <>
-      <h1>Star Wars</h1>
+      <NavBar />
+      <Routes>
+        <Route 
+          path='/starship-list'
+          element={<StartshipList />}
+        />
+      </Routes>
     </>
   );
 }
