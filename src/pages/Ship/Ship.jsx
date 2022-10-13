@@ -20,7 +20,7 @@ const Ship = () => {
   }, [location.state.ship])
 
   return ( 
-    <>
+    <div className="detail">
       <div className="icon-container">
         {shipDetails.name ?
         <>
@@ -35,7 +35,7 @@ const Ship = () => {
         </>
         }
       </div>
-    </>
+    </div>
   );
 }
 
