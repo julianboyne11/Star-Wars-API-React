@@ -1,6 +1,9 @@
+import "./Ship.css"
 import { useState, useEffect } from "react"
 import { useLocation } from "react-router-dom"
 import { getDetails } from "../../services/sw-calls";
+import { Link } from "react-router-dom";
+
 
 
 const Ship = () => {
@@ -21,8 +24,10 @@ const Ship = () => {
       <div className="icon-container">
         {shipDetails.name ?
         <>
-          <h2>Name: {shipDetails.name}</h2>
+          <h3>Name: {shipDetails.name}</h3>
           <h3>Model: {shipDetails.model}</h3>
+          <Link id="return" to="/starship-list">Return</Link>
+
         </>
         :
         <>
