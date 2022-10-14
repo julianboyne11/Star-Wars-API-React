@@ -9,3 +9,8 @@ export async function getDetails(apiUrl) {
   const res = await fetch(`${apiUrl}`)
   return res.json()
 }
+
+
+
+
+
