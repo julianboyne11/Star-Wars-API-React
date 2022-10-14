@@ -1,4 +1,6 @@
-
+html {
+  background-color: gray;
+}
 
 .icon-container {
   display: flex;
@@ -14,6 +16,8 @@
 }
 
 .detail {
+  background-color: gray;
+  
   height: 70vh;
   display: flex;
   align-items: center;
