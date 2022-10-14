@@ -1,5 +1,5 @@
 .App-header {
-  background-color: rgb(56, 56, 156);
+  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   text-align: center;
   align-items: center;
@@ -8,6 +8,6 @@
 }
 
 #link {
-  color: azure;
+  color: gold;
   text-decoration: none;
 }
